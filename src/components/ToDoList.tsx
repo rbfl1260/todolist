@@ -3,6 +3,7 @@ import { Categories, categoryState, toDoSelector } from "./atoms";
 import { CreateToDo } from "./CreateToDo";
 import { ToDo } from "./ToDo";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 
 const Title = styled.span`
   font-size: 25px;
